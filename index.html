@@ -1,13 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fauzan Hidayat</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">k
+    <title>Portofolio Fauzan Hidayat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-<h1>Masih Proses</h1>
+    <header class="main-header shadow-md bg-white sticky top-0 z-50">
+        <div class="logo"></div>
+        <nav class="flex">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#our-profile">Our Profile</a>
+            <a class="nav-link" href="#portofolio">Portofolio</a>
+            <a class="nav-link" href="#message-us">Message Us</a>
+        </nav>
+    </header>
+    <main>
+
+        <section id="home" class="section-1 min-h-[600px] text-center content-center border-b-1">
+            <h2 class="text-3xl text-stroke-white font-bold text-end pt-5 pe-5 ps-5" id="welcome-speech">welcome</h2>
+            <p class="mt-2 text-end text-xl text-stroke-white pb-5 pe-5 ps-5">The Best Electronic Manufacture</p>
+        </section>
+
+        <section id="our-profile" class="min-h-[400px] text-center content-center border-b-1 p-10">
+            <div class="">
+                <h2 class="text-3xl font-bold m-4">About Us: Innovating the Future of Personal Technology</h2>
+                <p class="text-l m-4">Welcome to PT Asalkan Bahagia, a pioneering force in the realm of consumer electronics. Established with a vision to merge cutting-edge technology with elegant design, we are dedicated to creating premium computing and mobile devices that empower individuals to connect, create, and achieve more.</p>
+            </div>
+            <div class="mt-10">
+                <h2 class="text-3xl font-bold">Our Headquarter</h2>
+                <div class="justify-center mt-10 flex flex-nowrap">
+                    <div class="text-center m-5">
+                        <div class="headquarter-img text-center"
+                            style="background-image: url(https://www.batamnews.co.id/foto_berita/2023/03/2023-03-21-jadi-ikon-batam-berikut-7-aktivitas-yang-biasa-dilakukan-wisatawan-di-jembatan-barelang.jpg);">
+                        </div>
+                        <h3 class="text-xl font-bold p-3">Batam</h3>
+                    </div>
+                    <div class="text-center m-5">
+                        <div class="headquarter-img text-center"
+                            style="background-image: url(https://cdn-images-1.medium.com/v2/resize:fit:1000/1*V2DR9jxRNyhZKqqXPY1cSg.jpeg);">
+                        </div>
+                        <h3 class="text-xl font-bold p-3">Jakarta</h3>
+                    </div>
+                    <div class="text-center m-5">
+                        <div class="headquarter-img text-center"
+                            style="background-image: url(https://www.imigrasikendari.com/wp-content/uploads/2024/07/Makassar.webp);">
+                        </div>
+                        <h3 class="text-xl font-bold p-3">Makassar</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portofolio" class="min-h-[400px] text-center content-center border-b-1 p-10">
+            <h2 class="text-3xl font-bold">Portofolio</h2>
+            <div class="justify-center mt-10 flex flex-col">
+                <div class="text-center m-5 flex">
+                    <div class="portofolio-img text-center"
+                        style="background-image: url(https://s.alicdn.com/@sc04/kf/H146b9b5961574d7db574eeeb5836976bD.jpg);">
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold p-3 ms-5 text-start">Laptop</h3>
+                        <h5 class="text-l p-3 ms-5 text-start">This laptop is designed as an all-in-one solution that
+                            balances high performance and premium portability. It's aimed at creative professionals and
+                            business executives who need a device that can handle heavy multitasking, from video editing
+                            to complex spreadsheets, without sacrificing style.</h5>
+                    </div>
+                </div>
+                <div class="text-center m-5 flex">
+                    <div class="portofolio-img text-center"
+                        style="background-image: url(https://image.made-in-china.com/365f3j00jaAWNrCKAiGR/Xs16-PRO-Android-Seluler-Cellphone3-Inci-2000mAh-4-128GB-4G-LTE-Mini-Smartphone.webp);">
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold p-3 ms-5 text-start">Smartphone</h3>
+                        <h5 class="text-l p-3 ms-5 text-start">This smartphone is designed for users who desire
+                            innovation, superior photography performance, and optimal battery life in one elegant grip.
+                            Its primary target audience is tech enthusiasts, content creators, and young professionals
+                            who need a reliable device for productivity and entertainment on the go.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="message-us" class="min-h-[500px] mx-8 mt-10 flex p-5">
+            <div>
+                <header>
+                    <h2 class="text-xl font-bold">Message Us</h2>
+                    <p class="mt-2">Have questions or want to work with us? Send us a message and we'll get back to you
+                        promptly.</p>
+                </header>
+
+                <form>
+                    <div class="mb-4">
+                        <label class="block mb-2" for="name">Name:</label>
+                        <input class="w-full p-2 border rounded" type="text" id="name" name="name" required />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2" for="email">Email:</label>
+                        <input class="w-full p-2 border rounded" type="email" id="email" name="email" required />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2" for="phone">Phone Number:</label>
+                        <input class="w-full p-2 border rounded" type="number" id="phone" name="phone" required />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2" for="message">Message:</label>
+                        <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5"
+                            required></textarea>
+                    </div>
+                    <button class="px-4 py-2 bg-blue-500 text-white rounded" type="button">Send Message</button>
+                </form>
+            </div>
+            <div class="w-1/2 p-4 flex justify-center items-center content-center">
+                <div id="resultBox" class="border p-4 bg-white shadow w-full min-h-[250px]">
+                    <p>Current time : <span id="currentTime"></span></p>
+                    <hr class="my-2">
+                    <p id="resultName">Name :</p>
+                    <p id="resultEmail">Email :</p>
+                    <p id="resultPhone">Phone Number :</p>
+                    <p id="resultMessage">Message :</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p class="text-center p-4">© 2025 Fauzan Hidayat. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>

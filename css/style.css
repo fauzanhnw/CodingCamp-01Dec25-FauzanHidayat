@@ -1,0 +1,56 @@
+.logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://fauzanhnw.my.id/wp-content/uploads/2024/12/cropped-Logo-web-ana.png);
+    background-size: cover;
+}
+
+.main-header {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1{
+    background-image: url(https://panangianschool.com/wp-content/uploads/2023/01/Investasi-Aset-Properti-Gedung-Perkantoran-1200px-x-675px.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-font{
+    font-size: 15px;
+}
+
+.nav-link{
+    padding: 10px;
+    position: relative;
+    border-color: black;
+}
+
+.nav-link:hover{
+    color: orange;
+    transition: color 0.3s ease;
+}
+
+.headquarter-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 0.03px whitesmoke; 
+  color: black; 
+  -webkit-font-smoothing: antialiased;
+}
+
+.portofolio-img{
+    height: 200px;
+    width: 350px;
+    border-radius: 3%;
+    background-size:cover;
+    background-position: center;
+}
